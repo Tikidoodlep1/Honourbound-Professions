@@ -1,0 +1,28 @@
+name: Honourbound-Professions
+version: 1.0
+author: Tiki#5162 on Discord
+main: com.tiki.honourboundprofessions.HBP
+api-version: 1.18
+commands: 
+ professions: 
+  description: Open the Professions GUI
+  usage: /<command>
+  aliases: prof
+ professions-levelups:
+  description: Give or take levelups from players
+  usage: "Usage: /<command> [give|take] [player] [levels]"
+  aliases: prof-lvlups
+  permissions: op
+  permission-message: You do not have permission to use this command.
+ professions-levels:
+  description: Give or take profession levels from players
+  usage: "Usage: /<command> [give|take] [smith|fletcher|alchemist|farmer|enchanter] [player] [levels]"
+  aliases: prof-lvls
+  permissions: op
+  permission-message: You do not have permission to use this command.
+ professions-setlevelups:
+  description: Set an item that, when crafted, gives the player levelup points
+  usage: "Usage: /<command> [craft|smelt] [item] [point count]"
+  aliases: prof-setlvlups
+  permissions: op
+  permission-message: You do not have permission to use this command.
